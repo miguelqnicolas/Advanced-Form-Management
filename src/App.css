@@ -1,0 +1,68 @@
+.App {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.App h1 {
+    margin-bottom: 1rem;
+    color: whitesmoke;
+}
+
+.form-container {
+    background: whitesmoke;
+    padding: 5rem;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border-radius: 1rem;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form input {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+}
+
+.form-container form input:last-child {
+    background: #606c88;
+    color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+}
+
+.form-container form input:last-child:hover {
+    opacity: 0.75;
+}
+
+.form-container form label {
+    margin-left: 0.5rem;
+}
+
+.forgot-password {
+    margin-top: 0.5rem;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.forgot-password:hover {
+    opacity: 0.75;
+}
+
+.error {
+    color: red;
+}
